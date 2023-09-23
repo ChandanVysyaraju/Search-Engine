@@ -2,14 +2,13 @@
 
 This project is developed using Python, MySQL, Bootstrap,  CSS
 
-Database saved on MAMP http://localhost:8888/phpMyAdmin
+Setting up the database
+1. Make sure that MySQL is up and running
+2. Open the web browser and navigate to http://localhost:8888/phpMyAdmin to access the phpMyAdmin interface.
+3. Enter necessary database information in the 'config.py' file and create a database named 'cyberminer'. Appropriate SQL commands for creating this database can be found in the 'dataset/readme.md' file.
 
-have MySQL running and enter the information in config.py
-and create a database name cyberminer (command also in dataset/readme.md)
+Executing the Code
+1. In the command prompt or terminal navigate to the project's root directory using the 'cd' command.
+2. Run by executing 'python app.py'
+3. Finally open you web browser and go to http://127.0.0.1:5000/ to start using the Web Search Engine
 
-then
-**Run**
-cd to the current folder
-python app.py
-
-then go to http://127.0.0.1:5000/
